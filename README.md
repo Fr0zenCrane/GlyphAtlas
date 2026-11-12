@@ -25,15 +25,6 @@
 3. **Bind both spatial streams to the atlas.** Atlas-anchored attention lets scene and glyph-image tokens retrieve the cells assigned to their regions. Atlas tokens attend to the prompt and their owning region, preserving correspondence throughout joint generation.
 4. **Control detail through cell resolution.** Randomized atlas heights train the model to use different token budgets. Square cells at 48, 64 and 80 pixels contribute 9, 16 and 25 tokens, respectively.
 
-The implementation builds on **FLUX.1-Fill-dev** and **FLUX-Text**. Atlas projection and geometry embeddings add **593,536 parameters**, with attention routing applied in all **19 double-stream and 38 single-stream blocks**. Training updates the DiT and atlas parameters with mask-weighted flow matching and a timestep-weighted PP-OCRv3 feature loss, using an OCR coefficient of **0.25 × 2t**.
-
-| Component | Implementation |
-| --- | --- |
-| Glyph cells, VAE encoding and region ownership | [data.py](runtime/scripts/glyph_atlas/data.py) |
-| Atlas projection and attention routing | [model.py](runtime/scripts/glyph_atlas/model.py) |
-| Resolution sampling and token allocation | [resolution_data.py](runtime/scripts/glyph_atlas/resolution_data.py), [budget.py](runtime/scripts/glyph_atlas/budget.py) |
-| Training loop and OCR supervision | [train.py](runtime/train.py), [stage1_ocr.py](runtime/scripts/glyph_atlas/stage1_ocr.py) |
-
 ## Quickstart
 
 ### Installation
@@ -56,7 +47,7 @@ huggingface-cli login
 
 ### Training
 
-[GlyphAtlas-Data-1.5M](https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M) contains **1,535,582 parent images across 16 sources**, organized into source-specific shards. The preparation script restores images and annotations; the training loader renders glyphs and masks and selects one annotation or crop view per parent.
+[GlyphAtlas-Data-1.5M](https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M) contains **1,535,582 scene text images across 16 sources**. The preparation script restores images and annotations; the training loader renders glyphs and masks and selects one annotation or crop view per parent.
 
 ```bash
 python tools/download_assets.py --training-assets
@@ -93,4 +84,3 @@ python runtime/infer.py \
 
 We thank the teams behind [FLUX.1-Fill-dev](https://huggingface.co/black-forest-labs/FLUX.1-Fill-dev), [FLUX-Text](https://github.com/AMAP-ML/FluxText) and [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) for their work.
 
-Maintained by [Luozheng Qin](https://github.com/Fr0zenCrane).
