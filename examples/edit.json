@@ -1,0 +1,30 @@
+{
+  "id": "bookshop",
+  "image": "input.png",
+  "prompt": "A dark blue bookstore sign with warm cream lettering.",
+  "regions": [
+    {
+      "text": "NEW STORIES",
+      "polygon": [
+        [
+          65,
+          181
+        ],
+        [
+          446,
+          181
+        ],
+        [
+          446,
+          251
+        ],
+        [
+          65,
+          251
+        ]
+      ],
+      "language": "English"
+    }
+  ],
+  "seed": 42
+}

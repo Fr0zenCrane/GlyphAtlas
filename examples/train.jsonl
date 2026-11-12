@@ -1,0 +1,1 @@
+{"id": "bookshop", "image": "input.png", "prompt": "A dark blue bookstore sign with warm cream lettering.", "regions": [{"text": "OLD BOOKS", "polygon": [[94, 184], [380, 184], [380, 242], [94, 242]], "language": "English"}], "seed": 42}

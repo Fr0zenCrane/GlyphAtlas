@@ -1,0 +1,516 @@
+{
+  "repo": "https://github.com/AMAP-ML/FluxText",
+  "revision": "d406544eed05a4a705693ff8e50b02382879fc79",
+  "files": [
+    {
+      "path": "ComfyUI-fluxtext/__init__.py",
+      "bytes": 976,
+      "sha256": "037e7855f5b513d7a2f0bde22239f1f132e32672aaa6d2221363e07ab559f09e"
+    },
+    {
+      "path": "ComfyUI-fluxtext/fluxtext/block.py",
+      "bytes": 17799,
+      "sha256": "ef937f917ad2d0c93ff31416f9aced08dddcce5ed08e0c1b23fd49c628dedce7"
+    },
+    {
+      "path": "ComfyUI-fluxtext/fluxtext/condition.py",
+      "bytes": 3880,
+      "sha256": "8e611ff90455774cb266e6b48c5428456a860f3e3fafb0b1b88f39e03a282e54"
+    },
+    {
+      "path": "ComfyUI-fluxtext/fluxtext/generate_fill.py",
+      "bytes": 21850,
+      "sha256": "f7fcb4ec7cc3c88e5f6c4ce964f0eaeeb3db1087bba490d2faaf0843e63e2bd0"
+    },
+    {
+      "path": "ComfyUI-fluxtext/fluxtext/lora_controller.py",
+      "bytes": 2624,
+      "sha256": "e6d9d9ec6024cbd272563491dddc47e02bff25501fc8aeeb1a8d7f929a7c6a32"
+    },
+    {
+      "path": "ComfyUI-fluxtext/fluxtext/model.py",
+      "bytes": 4138,
+      "sha256": "c472afd78bd8d3833a18d9d1496f3aaab039c58e9585341883185d54b57f079a"
+    },
+    {
+      "path": "ComfyUI-fluxtext/fluxtext/model_lora.py",
+      "bytes": 4313,
+      "sha256": "59fa6fdd9dadb51a24276b3353488db92735e7a551ed9447973e3a31982e2de1"
+    },
+    {
+      "path": "ComfyUI-fluxtext/fluxtext/pipeline_tools.py",
+      "bytes": 1712,
+      "sha256": "adf0751df43f268251b61253ce512a5b0f79721338fbdaf1d2a290bef4238c34"
+    },
+    {
+      "path": "ComfyUI-fluxtext/fluxtext/transformer.py",
+      "bytes": 11148,
+      "sha256": "96ac1e2b99bb3edb0a3500a32c801bf671aca245b894e6b16d78dbe68f8107ec"
+    },
+    {
+      "path": "ComfyUI-fluxtext/nodes/comfy_nodes.py",
+      "bytes": 13665,
+      "sha256": "13a7cb365d5956a8b763c2d700e32ab7b4788e9f7cc479e247bf5d143f5682c5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14902,
+      "sha256": "429f7831f177bd50fd307ec9b1a7642c7a04882454c857d74253fba76e95d0c6"
+    },
+    {
+      "path": "app.py",
+      "bytes": 10573,
+      "sha256": "83592f2d56db0f9550690e8731eac3c3dda26085e8380cb18210d1f96e1afe91"
+    },
+    {
+      "path": "app_low_VRAM.py",
+      "bytes": 10669,
+      "sha256": "8a20618f544641430019ad5aac4953b276e3d07ecafdcac97d1cebd4cda17c97"
+    },
+    {
+      "path": "eval/anytext_inference.py",
+      "bytes": 9787,
+      "sha256": "8da6ac168e320246c8b19bb6db785b6157890cc26925724c98d0a3b2dc2e0dd6"
+    },
+    {
+      "path": "eval/dataset_util.py",
+      "bytes": 2355,
+      "sha256": "5c31ea37a39f805400e3d07858d3350f5dcde546b166285968ea939cb1b8e260"
+    },
+    {
+      "path": "eval/eval_dgocr.py",
+      "bytes": 9770,
+      "sha256": "01e60f960fa475668358902616817f60aaf7991c757faf15cfc1ceea6c6dfc51"
+    },
+    {
+      "path": "eval/eval_fid.sh",
+      "bytes": 132,
+      "sha256": "d91700e53dc730d525235ceff8d346bb10a2181736ab17ac76d2e8a5f298ed2e"
+    },
+    {
+      "path": "eval/eval_lpips.py",
+      "bytes": 1767,
+      "sha256": "aecd2fcb7136c28e4b908c79b3482f32161237252f25380474b770cd4e96ec69"
+    },
+    {
+      "path": "eval/eval_lpips.sh",
+      "bytes": 150,
+      "sha256": "80cb1b7156c3b6fecb42d5492a55b22f82ca3b2943ae80bb1a87f16f6e7cf881"
+    },
+    {
+      "path": "eval/eval_ocr.sh",
+      "bytes": 170,
+      "sha256": "c02ff81183c4cd04c7c8b2181e8cb8e0aed062407c403ef872c8d552bb0c1926"
+    },
+    {
+      "path": "eval/gen_imgs_anytext.sh",
+      "bytes": 284,
+      "sha256": "62a44e0a0864b81f197a854e36d3ad712ef04ca6702ebb5ddedc13f01698d473"
+    },
+    {
+      "path": "eval/ocr_recog/RNN.py",
+      "bytes": 6607,
+      "sha256": "9c11dc5578000a262e82b41bea99004acb01082cbbcd95d1e42144d14f2843ee"
+    },
+    {
+      "path": "eval/ocr_recog/RecCTCHead.py",
+      "bytes": 1260,
+      "sha256": "1b680fbe7c63bd2dbf750496a7f309adb3112988a1c58847667b8dfe9b96938d"
+    },
+    {
+      "path": "eval/ocr_recog/RecModel.py",
+      "bytes": 1673,
+      "sha256": "b28d27fc0e8d6cb32a46122c9ad50eb82a7f9130dff5cf0968de892f4ef04826"
+    },
+    {
+      "path": "eval/ocr_recog/RecMv1_enhance.py",
+      "bytes": 6724,
+      "sha256": "9d367db86636fd88af3a9a843dc2f4661cc1b9adbf99968cc059b26f72438c51"
+    },
+    {
+      "path": "eval/ocr_recog/RecSVTR.py",
+      "bytes": 19468,
+      "sha256": "21df53b51b6a0d41c9b3a43ac172763a48bf6d9cf3c3fdfdc9f4ab65c03af25b"
+    },
+    {
+      "path": "eval/ocr_recog/common.py",
+      "bytes": 2180,
+      "sha256": "22dc8b3d8d2a76143f8e079e3c860b83d2af8b77949c56a3abe80a67609b609e"
+    },
+    {
+      "path": "eval/ocr_recog/en_dict.txt",
+      "bytes": 190,
+      "sha256": "5662df9d2d03f0e8ca0d3b0649d6acbab904b6a14b3d3521463c71c37c668ce3"
+    },
+    {
+      "path": "eval/ocr_recog/ppocr_keys_v1.txt",
+      "bytes": 26249,
+      "sha256": "28b2362ad4ab2dc38769aa72feb535e3a9ddb3fd2a7585a05920e6393b1dc7f7"
+    },
+    {
+      "path": "eval/ocr_weights/en_dict.txt",
+      "bytes": 190,
+      "sha256": "5662df9d2d03f0e8ca0d3b0649d6acbab904b6a14b3d3521463c71c37c668ce3"
+    },
+    {
+      "path": "eval/ocr_weights/ppocr_keys_v1.txt",
+      "bytes": 26249,
+      "sha256": "28b2362ad4ab2dc38769aa72feb535e3a9ddb3fd2a7585a05920e6393b1dc7f7"
+    },
+    {
+      "path": "eval/recognizer.py",
+      "bytes": 12461,
+      "sha256": "08f3f8ce4caee9f0d88246644a9e185db3bc3e2bebab18c353c5d6a9dc76c13e"
+    },
+    {
+      "path": "eval/t3_dataset.py",
+      "bytes": 19022,
+      "sha256": "92986f74101dfd875aa1f2d25fbb7ee0edbf2273fd475a3a144ca241018086ac"
+    },
+    {
+      "path": "font/put_your_font_file_here.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 3502,
+      "sha256": "19a46bdcd0d4d99dd0078f513475ad6168c31b7d4223d77452e8fe62a06d0ac5"
+    },
+    {
+      "path": "src/data/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/data/aspect.py",
+      "bytes": 5089,
+      "sha256": "2568e2654f232b15bf76ad08c38f973580636463e146fffee46b8fb08eef1cf1"
+    },
+    {
+      "path": "src/data/bucket.py",
+      "bytes": 5473,
+      "sha256": "7e19e21188e906523db8651c685fd75f3ae64eded107417cbd3a0d7e92214c45"
+    },
+    {
+      "path": "src/data/dataloader.py",
+      "bytes": 14419,
+      "sha256": "08c25b53976c68808bd3ed3c294960131293c3932316ec1ed694e208a4f28230"
+    },
+    {
+      "path": "src/data/parallel.py",
+      "bytes": 5840,
+      "sha256": "37fd06a272d554ab41c0ebbe16764228d88ded189aa87fb1d33373cad11bad6b"
+    },
+    {
+      "path": "src/data/pin_memory_cache.py",
+      "bytes": 3263,
+      "sha256": "235d3008797518389189e35e5d02f2c0ca0493a6cbc9f6d232d10b4abca36d38"
+    },
+    {
+      "path": "src/data/read_video.py",
+      "bytes": 9449,
+      "sha256": "c745d2ac8823f1be339dea19ff2c6b0c9b335642c92edb2d1859b7c8f65e9768"
+    },
+    {
+      "path": "src/data/sampler.py",
+      "bytes": 16495,
+      "sha256": "55c5c854ac44105c43f990fc2b2ad5c9f8c2a877368e9007bfa033329b445601"
+    },
+    {
+      "path": "src/data/utils.py",
+      "bytes": 14154,
+      "sha256": "9e5f9cc1e6b6c60d9f6b6c0d0f9e9a1f0051e50bfc5bea951f847f17d4f61c93"
+    },
+    {
+      "path": "src/data/video_transforms.py",
+      "bytes": 18574,
+      "sha256": "7dcfaf70d6fd0c021bb420ef4cb218e24cfb7aa4822f849ab466e3da880a3d29"
+    },
+    {
+      "path": "src/flux/block.py",
+      "bytes": 17799,
+      "sha256": "ef937f917ad2d0c93ff31416f9aced08dddcce5ed08e0c1b23fd49c628dedce7"
+    },
+    {
+      "path": "src/flux/condition.py",
+      "bytes": 3880,
+      "sha256": "8e611ff90455774cb266e6b48c5428456a860f3e3fafb0b1b88f39e03a282e54"
+    },
+    {
+      "path": "src/flux/generate_fill.py",
+      "bytes": 24706,
+      "sha256": "9df613c9f19018a35d4c88c3f92af87a0f4d21b4ba622f3e32ed93295082ab3c"
+    },
+    {
+      "path": "src/flux/lora_controller.py",
+      "bytes": 2624,
+      "sha256": "e6d9d9ec6024cbd272563491dddc47e02bff25501fc8aeeb1a8d7f929a7c6a32"
+    },
+    {
+      "path": "src/flux/pipeline_tools.py",
+      "bytes": 1712,
+      "sha256": "adf0751df43f268251b61253ce512a5b0f79721338fbdaf1d2a290bef4238c34"
+    },
+    {
+      "path": "src/flux/transformer.py",
+      "bytes": 11148,
+      "sha256": "96ac1e2b99bb3edb0a3500a32c801bf671aca245b894e6b16d78dbe68f8107ec"
+    },
+    {
+      "path": "src/loss/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/loss/ocr_loss/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/loss/ocr_loss/base_model/ODM.json",
+      "bytes": 440,
+      "sha256": "1101957806bb4debee7edde59cf1ed074b9b509be1fd88b1c04e457a99fc0baf"
+    },
+    {
+      "path": "src/loss/ocr_loss/base_model/ODM_encoder.py",
+      "bytes": 8454,
+      "sha256": "ca64f21a990a6293a4f58ae398284d98d225409df87bf98f9ca69ae0da390ad0"
+    },
+    {
+      "path": "src/loss/ocr_loss/base_model/__init__.py",
+      "bytes": 205,
+      "sha256": "c2821fad21a9efa46919c1e201b63fa6ded6222461931e16640dbb6c91f283d1"
+    },
+    {
+      "path": "src/loss/ocr_loss/base_model/craft.py",
+      "bytes": 4447,
+      "sha256": "e75bca139e329d7f545edd69f9ea5e9f153ab076ae0b0511b4810c0764d3e674"
+    },
+    {
+      "path": "src/loss/ocr_loss/base_model/lpips.py",
+      "bytes": 6862,
+      "sha256": "95bcc4304310739ca4ec5a230c0b6784eb2115c70d700278f266b4ae08612090"
+    },
+    {
+      "path": "src/loss/ocr_loss/base_model/vgg16_bn.py",
+      "bytes": 2975,
+      "sha256": "24e039557bb718e17adb6357ab21e81af1ec1c49ef3953090d1de317c57a0eae"
+    },
+    {
+      "path": "src/loss/ocr_loss/ocr_loss.py",
+      "bytes": 10307,
+      "sha256": "498fac941417943a1d45ee30279beecf225baeae789dd924a98056def5f9e3bf"
+    },
+    {
+      "path": "src/loss/ocr_loss/odm_loss.py",
+      "bytes": 6864,
+      "sha256": "4e927e65b83f30486155b215c7c67b20735878c50791c7ed397649e4b4674720"
+    },
+    {
+      "path": "src/text_encoder/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/text_encoder/byt5_encoder.py",
+      "bytes": 2741,
+      "sha256": "4197cc43c8edda3ded6f89f3a611c8469c4237d7516b65aa4571e90b59bf8d64"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/chinese_char.txt",
+      "bytes": 3999,
+      "sha256": "b5fd21e704dd63fe0a753abb434bab222062c4aa3163eea11ca08d849c0f1c04"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/color_idx.json",
+      "bytes": 2366,
+      "sha256": "d52364d14204f0fb658575ac92f094210b485aeb6579ac9814097a0e8c4eb513"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/font_idx_512.json",
+      "bytes": 12811,
+      "sha256": "63de6e54ebb5703c48c4587adb1e174c9687ca64478901a100cc014d4cd73345"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multi_fonts/cn.json",
+      "bytes": 4713,
+      "sha256": "2a42496c05e855a2f50dfaa97721e499944a2c90d0ac87a7bd3f1c07a5dc2ee5"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multi_fonts/de.json",
+      "bytes": 14171,
+      "sha256": "fcbfb955fa5ab53fb4efa4297726e1f6eb597f37805baefebd41636ad68b9386"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multi_fonts/en.json",
+      "bytes": 15371,
+      "sha256": "7a0007f9ce79386353c4f36b5d74a674ea4a987b7e8b5e18483a8b9c0f4734db"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multi_fonts/es.json",
+      "bytes": 14277,
+      "sha256": "0aa4ab51f8c4118c9cab01b13db1100ac55160b55797fe2c754bd585060b1cc8"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multi_fonts/fr.json",
+      "bytes": 14877,
+      "sha256": "be43554a8f648534c0721f89834d54116b564d71fd6b9797e05aec94a3233fbb"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multi_fonts/it.json",
+      "bytes": 14964,
+      "sha256": "941be9153b67774c3886bcdb80210fe3422467087a5e21fd156233d71252f3a5"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multi_fonts/jp.json",
+      "bytes": 6572,
+      "sha256": "b70a9a491db49867aaa31bf2d03f94c6ff163ee2a07f8fb623f466aef523d27e"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multi_fonts/kr.json",
+      "bytes": 3418,
+      "sha256": "442325632aba77d1e6b47f0ad78be807de3dea94a8eb9dc2081fd7263652130b"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multi_fonts/pt.json",
+      "bytes": 14944,
+      "sha256": "91ced34fdb6309e5286ac2a1dc548c4a6d977730154c762e6edae58812fe0ffc"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multi_fonts/ru.json",
+      "bytes": 4798,
+      "sha256": "75761d85e0075cbbcd31f78f1ac20d2f1cd1f083f09eea9963c36af44c54feb5"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/multilingual_10-lang_idx.json",
+      "bytes": 28098,
+      "sha256": "3753b9e132a4b4dac714e55ac90bd6f791874a83fa0f716b1f6f457a9c5a33a1"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/configs/glyph_sdxl_multilingual_albedo.py",
+      "bytes": 4393,
+      "sha256": "1e44ba4d8a84ba3e5e5e7062308b560027ee8b3bd2c29edb16b5ee3516a18fa3"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/custom_diffusers/__init__.py",
+      "bytes": 47,
+      "sha256": "a7851b77f3ba9abb2fd0904aafdb91c1a6c49f90fdc2f1cbcfd1bd3451d5225a"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/custom_diffusers/models/__init__.py",
+      "bytes": 138,
+      "sha256": "60fd51482d3ec4689b644808ebfe3d82c6601e5bdb3a433fb9af0a8e41f532a5"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/custom_diffusers/models/cross_attn_insert_transformer_blocks.py",
+      "bytes": 16132,
+      "sha256": "2bdaf3390bdbc1bbad74385b047f6c1ee5ddd71d37c28cbd392f72f33c6862aa"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/custom_diffusers/pipelines/__init__.py",
+      "bytes": 131,
+      "sha256": "ffd1a905f93ff751e793ee9fd5f12925e9a59844cfd4ec7219fc17737554ef10"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/custom_diffusers/pipelines/pipeline_stable_diffusion_glyph_xl.py",
+      "bytes": 48929,
+      "sha256": "89a7900e166c118734ff6c2143c829698d079cccbc3eeba820149ae0d4282f71"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/modules/__init__.py",
+      "bytes": 168,
+      "sha256": "10260c5561788b3fa8fc318e260b037c7c5125ad01db26b8372a956b55e93250"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/modules/byt5_block_byt5_mapper.py",
+      "bytes": 6800,
+      "sha256": "7ea4969c75e9317a87a5021c87262408219fba2032823ef18040a257601d1fa7"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/modules/simple_byt5_mapper.py",
+      "bytes": 496,
+      "sha256": "c56c38782ac48128946ee5b09bed733d1b58385214330fb1d1f1649917546a7b"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/utils/__init__.py",
+      "bytes": 576,
+      "sha256": "521c5c49b13719cc78f4bd9ccfcd58efbc3c116f80d3defc777e031422a5ce05"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/utils/constants.py",
+      "bytes": 185,
+      "sha256": "aa3570084bc14b3aaaf79acfbb31e6092c7ada9028d01aeb365ff630b5cbd6b6"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/utils/format_prompt.py",
+      "bytes": 3990,
+      "sha256": "fec3a0327c1a947b7c9f41ebdc9d983e2cd7363b1b253651353e75f28ef47aab"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/utils/load_pretrained_byt5.py",
+      "bytes": 2097,
+      "sha256": "1551c9bf33b9a7100bd1f214e5e037e899320aded95a251a128e95a70401acd2"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/glyph_sdxl/utils/parse_config.py",
+      "bytes": 384,
+      "sha256": "e99e299b2a7bcef605c1d88054b023a34a9b35b17c1acb136de55fe8e228b8e8"
+    },
+    {
+      "path": "src/train/callbacks.py",
+      "bytes": 9419,
+      "sha256": "ca05bb55823d87feedc185df549d669bbd51fce264de1a7c6aded9845e894cc9"
+    },
+    {
+      "path": "src/train/data_word.py",
+      "bytes": 25316,
+      "sha256": "3daf6c13f2f83251ccb8355140bc40b296e7e1227c76b85278586bd6a4f59c84"
+    },
+    {
+      "path": "src/train/dataset_util.py",
+      "bytes": 2355,
+      "sha256": "172258bd6264b7e6100abf93b4816bc6e029878b2a950cb681a1e4495c02b462"
+    },
+    {
+      "path": "src/train/model.py",
+      "bytes": 13392,
+      "sha256": "1db2d9e4979d4f40f5ed392acfcd46b971f9b43ee0c16d29ece0f18dfc0f9587"
+    },
+    {
+      "path": "src/train/parallel_states.py",
+      "bytes": 823,
+      "sha256": "eac48e196004fd6e351400371b3125718c376cf6493a542762b34c9bc55e21ce"
+    },
+    {
+      "path": "src/train/train.py",
+      "bytes": 6089,
+      "sha256": "e191e008056c2a66dcf2af6d4b5e685eceaf1c95f893ee36619b12b44fae3549"
+    },
+    {
+      "path": "train/config/word_512_size.yaml",
+      "bytes": 1845,
+      "sha256": "0fd89a941192e932e7409f2f3c44ec08764aa965b38e7166b828d5dcf6e5b813"
+    },
+    {
+      "path": "train/config/word_multi_size.yaml",
+      "bytes": 1916,
+      "sha256": "670c4cd8c6fc0231b3aebece83e819ea1a6a1aeadf014b6691ab56ee97255522"
+    },
+    {
+      "path": "train/script/train_word.sh",
+      "bytes": 228,
+      "sha256": "551c1b03d802faf87117c61021bf6e7277723a39517763e56741e62784a67895"
+    },
+    {
+      "path": "workflow/FLUX-Text-Basic-Workflow.json",
+      "bytes": 13654,
+      "sha256": "aec2398f558ac3fdb4e36ca48106e42a1eb78125fb028c7d4130d42d709068c7"
+    },
+    {
+      "path": "workflow/FLUX-Text-Workflow.json",
+      "bytes": 5466,
+      "sha256": "8e5099ebfbcd01dff1c6e43c1a6f3ab84a9ed0b5aad14e58e4d106b1148fca72"
+    }
+  ]
+}

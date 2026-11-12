@@ -1,0 +1,145 @@
+{
+  "repo": "black-forest-labs/FLUX.1-Fill-dev",
+  "revision": "358293da0354175698b67ec8299acf928313a78a",
+  "all_core_bytes_match": true,
+  "files": [
+    {
+      "path": "model_index.json",
+      "bytes": 540,
+      "algorithm": "git-blob-sha1",
+      "hash": "b09a49f0a56a59b9fcaba3087ab3982fcdc79b95"
+    },
+    {
+      "path": "scheduler/scheduler_config.json",
+      "bytes": 299,
+      "algorithm": "git-blob-sha1",
+      "hash": "9ab63efc0533c769b781dddbd177fad8c8c18d49"
+    },
+    {
+      "path": "text_encoder/config.json",
+      "bytes": 561,
+      "algorithm": "git-blob-sha1",
+      "hash": "d496a6a2474172a0b3f2b19ea97d90e84287b075"
+    },
+    {
+      "path": "text_encoder/model.safetensors",
+      "bytes": 246144352,
+      "algorithm": "sha256",
+      "hash": "893d67a23f4693ed42cdab4cbad7fe3e727cf59609c40da28a46b5470f9ed082"
+    },
+    {
+      "path": "text_encoder_2/config.json",
+      "bytes": 741,
+      "algorithm": "git-blob-sha1",
+      "hash": "cf6c4d78b3b4f575a8b296ee5fccf6ab4e14c686"
+    },
+    {
+      "path": "text_encoder_2/model-00001-of-00002.safetensors",
+      "bytes": 4994582224,
+      "algorithm": "sha256",
+      "hash": "ec87bffd1923e8b2774a6d240c922a41f6143081d52cf83b8fe39e9d838c893e"
+    },
+    {
+      "path": "text_encoder_2/model-00002-of-00002.safetensors",
+      "bytes": 4530066360,
+      "algorithm": "sha256",
+      "hash": "a5640855b301fcdbceddfa90ae8066cd9414aff020552a201a255ecf2059da00"
+    },
+    {
+      "path": "text_encoder_2/model.safetensors.index.json",
+      "bytes": 19885,
+      "algorithm": "git-blob-sha1",
+      "hash": "c8728bc3dca59d2616a2a594cbac3ddb9eb77d5b"
+    },
+    {
+      "path": "tokenizer/merges.txt",
+      "bytes": 524619,
+      "algorithm": "git-blob-sha1",
+      "hash": "76e821f1b6f0a9709293c3b6b51ed90980b3166b"
+    },
+    {
+      "path": "tokenizer/special_tokens_map.json",
+      "bytes": 588,
+      "algorithm": "git-blob-sha1",
+      "hash": "cf0682d6de72c1547f41b4f6d7c59f62deffef94"
+    },
+    {
+      "path": "tokenizer/tokenizer_config.json",
+      "bytes": 705,
+      "algorithm": "git-blob-sha1",
+      "hash": "180a4e1be2a7d0b38a44108d6f24f585f35147b1"
+    },
+    {
+      "path": "tokenizer/vocab.json",
+      "bytes": 1059962,
+      "algorithm": "git-blob-sha1",
+      "hash": "469be27c5c010538f845f518c4f5e8574c78f7c8"
+    },
+    {
+      "path": "tokenizer_2/special_tokens_map.json",
+      "bytes": 2543,
+      "algorithm": "git-blob-sha1",
+      "hash": "17ade346a1042cbe0c1436f5bedcbd85c099d582"
+    },
+    {
+      "path": "tokenizer_2/spiece.model",
+      "bytes": 791656,
+      "algorithm": "sha256",
+      "hash": "d60acb128cf7b7f2536e8f38a5b18a05535c9e14c7a355904270e15b0945ea86"
+    },
+    {
+      "path": "tokenizer_2/tokenizer.json",
+      "bytes": 2424235,
+      "algorithm": "git-blob-sha1",
+      "hash": "21ed409afa3df5a822caa0fd5da30d13941f90b5"
+    },
+    {
+      "path": "tokenizer_2/tokenizer_config.json",
+      "bytes": 20817,
+      "algorithm": "git-blob-sha1",
+      "hash": "b336fa236135e6c87e246485e4d69e415cc57da0"
+    },
+    {
+      "path": "transformer/config.json",
+      "bytes": 393,
+      "algorithm": "git-blob-sha1",
+      "hash": "9a19ee2be2959dc5e225b4d9c61f3e969dbfefb1"
+    },
+    {
+      "path": "transformer/diffusion_pytorch_model-00001-of-00003.safetensors",
+      "bytes": 9985006384,
+      "algorithm": "sha256",
+      "hash": "4cef6b166b2163ba9a01ccb68bf53054556852b69b32c0565dfe0741d28982d7"
+    },
+    {
+      "path": "transformer/diffusion_pytorch_model-00002-of-00003.safetensors",
+      "bytes": 9949328904,
+      "algorithm": "sha256",
+      "hash": "cd99fdd45ac404a9c98c939bdc986647cd5160ca48b8e679e81d3d59c2b9a1e0"
+    },
+    {
+      "path": "transformer/diffusion_pytorch_model-00003-of-00003.safetensors",
+      "bytes": 3870584832,
+      "algorithm": "sha256",
+      "hash": "ed878852603579083b4a4ea80544504faca9f42ebd41aaa103c3023ee2ebfbd5"
+    },
+    {
+      "path": "transformer/diffusion_pytorch_model.safetensors.index.json",
+      "bytes": 121262,
+      "algorithm": "git-blob-sha1",
+      "hash": "21f6c277a5b661e77f9b259c05ca7dad2a29f559"
+    },
+    {
+      "path": "vae/config.json",
+      "bytes": 774,
+      "algorithm": "git-blob-sha1",
+      "hash": "ed8c04742888d41b78298d360299f40710fa20ae"
+    },
+    {
+      "path": "vae/diffusion_pytorch_model.safetensors",
+      "bytes": 335306212,
+      "algorithm": "sha256",
+      "hash": "8c717328c8ad41faab2ccfd52ae17332505c6833cf176aad56e7b58f2c4d4c94"
+    }
+  ]
+}

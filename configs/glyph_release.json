@@ -1,0 +1,145 @@
+{
+  "schema": "glyphatlas-training-release-v2",
+  "repo_id": "Fr0zencr4nE/GlyphAtlas-Data-1.5M",
+  "repo_type": "dataset",
+  "revision": "f843011b7184e7cab058446ad60e3ab905e3a3e1",
+  "catalog": {
+    "file": "source_catalog.json",
+    "sha256": "96141c5acaab6a4af61aa7ef16338ca49a5eab60bb875780e3948966586275a6"
+  },
+  "parents": 1535582,
+  "physical_images": 1577375,
+  "shards": 1456,
+  "download_bytes": 393484820480,
+  "record_types": {
+    "full_image": {
+      "parents": 1459957,
+      "physical_images": 1459957,
+      "annotation_variants": 1513382,
+      "original_records": 1713825
+    },
+    "crop_views": {
+      "parents": 75625,
+      "physical_images": 117418,
+      "annotation_variants": 0,
+      "original_records": 75878
+    }
+  },
+  "sources": {
+    "art": {
+      "status": "released",
+      "directory": "ArT",
+      "parents": 1035,
+      "physical_images": 1035,
+      "shards": 2
+    },
+    "bharat_scene_text": {
+      "status": "released",
+      "directory": "BharatSceneText",
+      "parents": 58,
+      "physical_images": 97,
+      "shards": 1
+    },
+    "coco_text": {
+      "status": "released",
+      "directory": "COCO-Text",
+      "parents": 1413,
+      "physical_images": 1413,
+      "shards": 2
+    },
+    "ctw": {
+      "status": "released",
+      "directory": "CTW",
+      "parents": 23285,
+      "physical_images": 39589,
+      "shards": 48
+    },
+    "ctw1500": {
+      "status": "released",
+      "directory": "CTW1500",
+      "parents": 37,
+      "physical_images": 51,
+      "shards": 1
+    },
+    "hiertext": {
+      "status": "released",
+      "directory": "HierText",
+      "parents": 7943,
+      "physical_images": 14130,
+      "shards": 18
+    },
+    "laion": {
+      "status": "released",
+      "directory": "LAION",
+      "parents": 812684,
+      "physical_images": 812684,
+      "shards": 665
+    },
+    "lsvt": {
+      "status": "released",
+      "directory": "LSVT",
+      "parents": 19077,
+      "physical_images": 20110,
+      "shards": 23
+    },
+    "mlt2019": {
+      "status": "released",
+      "directory": "MLT2019",
+      "parents": 9370,
+      "physical_images": 12116,
+      "shards": 12
+    },
+    "mtwi2018": {
+      "status": "released",
+      "directory": "MTWI2018",
+      "parents": 4517,
+      "physical_images": 4517,
+      "shards": 6
+    },
+    "rctw2017": {
+      "status": "released",
+      "directory": "RCTW2017",
+      "parents": 3361,
+      "physical_images": 3361,
+      "shards": 4
+    },
+    "rects": {
+      "status": "released",
+      "directory": "ReCTS",
+      "parents": 15556,
+      "physical_images": 16062,
+      "shards": 12
+    },
+    "stiplar": {
+      "status": "released",
+      "directory": "STIPLAR",
+      "parents": 1169,
+      "physical_images": 1511,
+      "shards": 2
+    },
+    "textocr": {
+      "status": "released",
+      "directory": "TextOCR",
+      "parents": 20952,
+      "physical_images": 34925,
+      "shards": 44
+    },
+    "totaltext": {
+      "status": "released",
+      "directory": "TotalText",
+      "parents": 1200,
+      "physical_images": 1849,
+      "shards": 3
+    },
+    "wukong": {
+      "status": "released",
+      "directory": "WuKong",
+      "parents": 613925,
+      "physical_images": 613925,
+      "shards": 613
+    }
+  },
+  "parent_sampling_weight": 1,
+  "variant_policy": "Rotate annotation or crop variants within each parent; preserve all source aliases and parent keys",
+  "additional_test_exclusion": false
+}

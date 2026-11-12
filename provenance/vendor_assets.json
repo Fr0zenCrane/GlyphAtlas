@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "eval/ocr_weights/ppv3_rec.pth",
+      "bytes": 10660040,
+      "sha256": "e9c2dd4fa2c60de53644a28cd8d9c23af3197f919ac89fb7c5230fd1241e174c",
+      "url": "https://raw.githubusercontent.com/AMAP-ML/FluxText/d406544eed05a4a705693ff8e50b02382879fc79/eval/ocr_weights/ppv3_rec.pth"
+    },
+    {
+      "path": "eval/ocr_weights/ppv3_rec_en.pth",
+      "bytes": 8962751,
+      "sha256": "be7284a8b57eb376a3d9fcb47a3b9b54d0e4bb9e082b5d29066f62719c753203",
+      "url": "https://raw.githubusercontent.com/AMAP-ML/FluxText/d406544eed05a4a705693ff8e50b02382879fc79/eval/ocr_weights/ppv3_rec_en.pth"
+    },
+    {
+      "path": "font/Arial_Unicode.ttf",
+      "bytes": 23278008,
+      "sha256": "876af2cd4854644e7f3e7feb2f688997fdb3343c6df6693611209c9dfb47ccec",
+      "url": "https://raw.githubusercontent.com/AMAP-ML/FluxText/d406544eed05a4a705693ff8e50b02382879fc79/font/Arial_Unicode.ttf"
+    },
+    {
+      "path": "src/text_encoder/glyph_byt5/assets/Arial.ttf",
+      "bytes": 275572,
+      "sha256": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833",
+      "url": "https://raw.githubusercontent.com/AMAP-ML/FluxText/d406544eed05a4a705693ff8e50b02382879fc79/src/text_encoder/glyph_byt5/assets/Arial.ttf"
+    }
+  ]
+}

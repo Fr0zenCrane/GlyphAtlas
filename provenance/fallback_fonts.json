@@ -1,0 +1,80 @@
+{
+  "files": [
+    {
+      "file": "assets/fonts/DejaVu-LICENSE.txt",
+      "bytes": 3859,
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "file": "assets/fonts/DejaVuSans.ttf",
+      "bytes": 757076,
+      "sha256": "690243adfefe0ce154b547db6205794bd30ac4277275179517a90994f4980648"
+    },
+    {
+      "file": "assets/fonts/FreeFont-LICENSE.txt",
+      "bytes": 4626,
+      "sha256": "dc12a0bc9870cca7aae5a787c246e3b53b6eb5bdfb96ed7898b72062bd11edfd"
+    },
+    {
+      "file": "assets/fonts/FreeSerif.ttf",
+      "bytes": 2006044,
+      "sha256": "94e0d02a27b8923b5695349dea45d4c4ba6367e9c3df29eff368f6a57896a065"
+    },
+    {
+      "file": "assets/fonts/GPL-3.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "file": "assets/fonts/NotoSansBengali[wdth,wght].ttf",
+      "bytes": 463668,
+      "sha256": "dcd42978094e584a849c84a51450eeac40c8826057d566ea6d4b9627a403a05a"
+    },
+    {
+      "file": "assets/fonts/NotoSansMath-Regular.ttf",
+      "bytes": 1015396,
+      "sha256": "3f495fe933c06786e4d5f6d86b8ee70b6753a68ee3b9d87528726de0f6e2c47d"
+    },
+    {
+      "file": "assets/fonts/NotoSansMeeteiMayek[wght].ttf",
+      "bytes": 95616,
+      "sha256": "d56eb6d54ad8aad3570b7ee07f64866832a04f29bce6e5f183918c9eaf008fac"
+    },
+    {
+      "file": "assets/fonts/NotoSansSymbols2-Regular.ttf",
+      "bytes": 1233128,
+      "sha256": "7d5fb73b7ca67a6798101741f5d280a3d016a56a197afcd4199dbb57b4b82a21"
+    },
+    {
+      "file": "assets/fonts/NotoSansSymbols[wght].ttf",
+      "bytes": 372684,
+      "sha256": "f7e7e04b4a24b6c78893d50cbfd2b2f6cae49617ab047bfef668d252adb128f7"
+    },
+    {
+      "file": "assets/fonts/OFL.txt",
+      "bytes": 4383,
+      "sha256": "754f0e221aa7d5a915489f3bf1f20fe53ddc35ab2834a4d91656d78f9622de70"
+    },
+    {
+      "file": "assets/fonts/notosansmath-OFL.txt",
+      "bytes": 4380,
+      "sha256": "403a95275b469061b7d4371c328e0ada3bc7d63328abe2e88aad5cd243b2fe21"
+    },
+    {
+      "file": "assets/fonts/notosansmeeteimayek-OFL.txt",
+      "bytes": 4388,
+      "sha256": "5dbbaac416c9c5021f3409d1157419c0bfe5089ef39a373c49a632eefdc639d8"
+    },
+    {
+      "file": "assets/fonts/notosanssymbols-OFL.txt",
+      "bytes": 4383,
+      "sha256": "b118dd41337806a5d4797052c77caf3bd096aed783e5eb21b4d11154351e1ac0"
+    },
+    {
+      "file": "assets/fonts/notosanssymbols2-OFL.txt",
+      "bytes": 4383,
+      "sha256": "b118dd41337806a5d4797052c77caf3bd096aed783e5eb21b4d11154351e1ac0"
+    }
+  ],
+  "policy": "Arial unchanged when all required characters exist; otherwise select one complete fallback font; never silently render missing glyphs"
+}

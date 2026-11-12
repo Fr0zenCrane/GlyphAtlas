@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-12",
+  "passed": true,
+  "hardware": "8 NVIDIA A800-SXM4-80GB GPUs on one host",
+  "data": {
+    "repository": "Fr0zencr4nE/GlyphAtlas-Data-1.5M",
+    "revision": "f843011b7184e7cab058446ad60e3ab905e3a3e1",
+    "sources": [
+      "COCO-Text",
+      "CTW1500"
+    ],
+    "parents": 1450,
+    "physical_images": 1464,
+    "first_batch_full_image_parents": 124,
+    "first_batch_crop_view_parents": 4
+  },
+  "cpu_tests": 40,
+  "clean_checkout_tests": 40,
+  "upstream_source_files_verified": 102,
+  "installed_environment_reused": true,
+  "locked_package_versions_verified": 118,
+  "fresh_dependency_install_tested": false,
+  "global_batch": 128,
+  "world_size": 8,
+  "gradient_accumulation": 16,
+  "fixed_atlas": {
+    "config": "configs/c4_bs128.json",
+    "lr_horizon": 501,
+    "warmup_steps": 500,
+    "actual_optimizer_updates": 1,
+    "checkpoint_saved": true,
+    "checkpoint_reloaded": true,
+    "next_global_batch_backward_passed": true
+  },
+  "random_atlas": {
+    "config": "configs/c4_random_resolution_bs128.json",
+    "global_batches_backward": 1,
+    "optimizer_updates": 0
+  },
+  "tiny_fsdp_checks": {
+    "world_checkpoint_roundtrip": true,
+    "logical_nodes": 2,
+    "gpus_per_logical_node": 4,
+    "fp32_and_bf16": true,
+    "replica_gradients_and_updated_parameters_match_reference": true,
+    "adamw_rng_sampler_restore_exact": true
+  },
+  "physical_multinode_tested": false,
+  "full_dataset_training_completed": false,
+  "runtime_sha256": {
+    "runtime/common.py": "e36eef2f7f466b1ef5c5bee712a830cfc97843bf076593bc9d5a1cefb65fca96",
+    "runtime/data_records.py": "50e992635517ab94dd7c4c84fa9f4c8a3db8219a93d5ce9ff19aa7caa8785e91",
+    "runtime/dataset.py": "08aecd08cff1741f0a9b9d74aed71e8ffc7f83fa935f44a5490f65b7077c1c96",
+    "runtime/dataset_contract.py": "8abe7a3de83d43c310bba332c9e41954bf50fca93a2bd236677225e97b72468c",
+    "runtime/distributed_layout.py": "46dea64ea793951cc5b59fc9e083642ed98521f1ce2ca61ed207ccfcfe2f4bec",
+    "runtime/font_support.py": "f13c087bdf51f9184c709b37d68224f1e4590ccfd95b656d4c20d4713e4e3e27",
+    "runtime/generate.py": "04be0719a89f02e895613c790c54a87bb74556dee06d44a080cb43aa35ef948c",
+    "runtime/infer.py": "a62d4d347543b33d6a07ee92747253fdf9a52eff68b6c0504c8cefb7a947502c",
+    "runtime/inference_inputs.py": "779f7a15428755f211d01a8de57a31ec0d2d413f866e3e34e665aa8b0cdb4d02",
+    "runtime/pipeline_precision.py": "8b5a0471eadadf08af31fa5eda5192379e910ab7ea4ba958d81d61dc74a22559",
+    "runtime/requests_io.py": "0cb4431345d92b2e7d89ca46a7691b3e5fba139f181617dd8deada5dd8e3b07d",
+    "runtime/scripts/glyph_atlas/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runtime/scripts/glyph_atlas/budget.py": "c5bbf16358fe93abefcc06b85cbc0bf875d373119b8f94a2b74c3fd70f4a2418",
+    "runtime/scripts/glyph_atlas/character_data_legacy.py": "6eb9de5e0a4b50a3b104138f6bd5b5ddc2aceea3fa43e18c95f12204ec23b67e",
+    "runtime/scripts/glyph_atlas/data.py": "181cb3a02c512a620f56fe416da15201bef997866172e9906f74729399e91db4",
+    "runtime/scripts/glyph_atlas/global_trace.py": "156607a7dd9ac9f30b5a6d226e453642bffb2b093f11d1944d7e500f011a4413",
+    "runtime/scripts/glyph_atlas/model.py": "9062713527e128377f3fa0b618234282dc6516c6b91068f627501c85cd82c231",
+    "runtime/scripts/glyph_atlas/resolution_data.py": "625673f0d78cafb18e388c0bc4b8ce833180d53bafff066286685c87d4a564c4",
+    "runtime/scripts/glyph_atlas/stage1_ocr.py": "103b44e793443f07fd3a1297495c2d1ee0a9a01fcf256602df53db988b0b972c",
+    "runtime/scripts/glyph_atlas/supervision.py": "f7840b679a34fcec93d99d5d630f6be225e60d3ff20d1f7549832374dd7d53d5",
+    "runtime/scripts/reproduce_flux_text/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runtime/scripts/reproduce_flux_text/evaluate.py": "4ee40a20ce4d0f354c406b4ed681aa20f4f77f8416929adbbf120ca5429e121c",
+    "runtime/scripts/reproduce_flux_text/full_model.py": "1a745844bf84561021e15b103bcffa87a52be6c26336e56bba7d4c90ff716e25",
+    "runtime/scripts/reproduce_flux_text/generate_benchmark.py": "b6b8877390c78dd6219b7dd0b7e22e7b75c062a4bb0518a850ba58c2cf4bdfe9",
+    "runtime/scripts/reproduce_flux_text/train.py": "120ee9bffbceeef3cb0ee1816120fe0dddba64babfc70350c965609c7482b34c",
+    "runtime/scripts/reproduce_flux_text/train_full.py": "eafd035285c54ac054dacdfe10bdeffe5f70bc9d9ff984ae430ea59c4ca5dc80",
+    "runtime/tools_check.py": "cf47e66696a1ce743c3e21d9e782f731372e51f33d2b1e9a43120f69bb3515c9",
+    "runtime/train.py": "4be3de2c16b4d92eec8e93ea602f5d4807978ef29eb7f48416511e4e120ef8ea",
+    "runtime/training_schedule.py": "36f961db2d27dd19794715105e1b169b087948e39fd845a8ab5966ccdd952187"
+  }
+}

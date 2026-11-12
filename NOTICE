@@ -1,0 +1,13 @@
+GlyphAtlas integration and release interfaces, maintained by Luozheng Qin.
+
+Based on Fr0zenCrane/dev-glyph-atlas at commit
+3917d5b78b65e24afd022d2cd56fdb5833b8aeff.
+
+The integration builds on AMAP-ML/FluxText (commit
+d406544eed05a4a705693ff8e50b02382879fc79) and Hugging Face Diffusers.
+Upstream code is obtained separately by tools/bootstrap_upstream.py and is
+excluded from the source archive. Source hashes and attribution are retained.
+
+FLUX, OCR weights, Arial fonts, datasets and experimental checkpoints are not
+redistributed in this archive. Bundled fallback fonts retain their original
+license files under assets/fonts. See docs/LICENSING.md.

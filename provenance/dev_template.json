@@ -1,0 +1,314 @@
+{
+  "source_repository": "https://github.com/Fr0zenCrane/dev-glyph-atlas",
+  "revision": "3917d5b78b65e24afd022d2cd56fdb5833b8aeff",
+  "original_files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "159392ff06a47a1058897022bbaa19147dc925c40b8d8b0131bf7ae572db5fca"
+    },
+    {
+      "path": "assets/fonts/DejaVu-LICENSE.txt",
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "path": "assets/fonts/DejaVuSans.ttf",
+      "sha256": "690243adfefe0ce154b547db6205794bd30ac4277275179517a90994f4980648"
+    },
+    {
+      "path": "assets/fonts/FreeFont-LICENSE.txt",
+      "sha256": "dc12a0bc9870cca7aae5a787c246e3b53b6eb5bdfb96ed7898b72062bd11edfd"
+    },
+    {
+      "path": "assets/fonts/FreeSerif.ttf",
+      "sha256": "94e0d02a27b8923b5695349dea45d4c4ba6367e9c3df29eff368f6a57896a065"
+    },
+    {
+      "path": "assets/fonts/GPL-3.txt",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "path": "assets/fonts/NotoSansBengali[wdth,wght].ttf",
+      "sha256": "dcd42978094e584a849c84a51450eeac40c8826057d566ea6d4b9627a403a05a"
+    },
+    {
+      "path": "assets/fonts/NotoSansMath-Regular.ttf",
+      "sha256": "3f495fe933c06786e4d5f6d86b8ee70b6753a68ee3b9d87528726de0f6e2c47d"
+    },
+    {
+      "path": "assets/fonts/NotoSansMeeteiMayek[wght].ttf",
+      "sha256": "d56eb6d54ad8aad3570b7ee07f64866832a04f29bce6e5f183918c9eaf008fac"
+    },
+    {
+      "path": "assets/fonts/NotoSansSymbols2-Regular.ttf",
+      "sha256": "7d5fb73b7ca67a6798101741f5d280a3d016a56a197afcd4199dbb57b4b82a21"
+    },
+    {
+      "path": "assets/fonts/NotoSansSymbols[wght].ttf",
+      "sha256": "f7e7e04b4a24b6c78893d50cbfd2b2f6cae49617ab047bfef668d252adb128f7"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "754f0e221aa7d5a915489f3bf1f20fe53ddc35ab2834a4d91656d78f9622de70"
+    },
+    {
+      "path": "assets/fonts/notosansmath-OFL.txt",
+      "sha256": "403a95275b469061b7d4371c328e0ada3bc7d63328abe2e88aad5cd243b2fe21"
+    },
+    {
+      "path": "assets/fonts/notosansmeeteimayek-OFL.txt",
+      "sha256": "5dbbaac416c9c5021f3409d1157419c0bfe5089ef39a373c49a632eefdc639d8"
+    },
+    {
+      "path": "assets/fonts/notosanssymbols-OFL.txt",
+      "sha256": "b118dd41337806a5d4797052c77caf3bd096aed783e5eb21b4d11154351e1ac0"
+    },
+    {
+      "path": "assets/fonts/notosanssymbols2-OFL.txt",
+      "sha256": "b118dd41337806a5d4797052c77caf3bd096aed783e5eb21b4d11154351e1ac0"
+    },
+    {
+      "path": "configs/c4_bs128.json",
+      "sha256": "a65ef35399ff1c5414ba781260725ef35f9af72ce3756351ee3d4d59fdafac46"
+    },
+    {
+      "path": "configs/c4_node_shard_bs128.json",
+      "sha256": "d34260d855cb3854b599bf28b19a5114a5a1a2c40edd340d49512d92eef3b12c"
+    },
+    {
+      "path": "configs/c4_random_resolution_bs128.json",
+      "sha256": "d14abb33b0c302737fcc9d16dc4f4dc73b7c493f3b399e394f6cc24a52274fcd"
+    },
+    {
+      "path": "configs/glyph_release.json",
+      "sha256": "3be680ff1c6b81b190a95eeb94752db0d8b47c64f21bea111d980bf468b2f0eb"
+    },
+    {
+      "path": "provenance/annotation_release.json",
+      "sha256": "5e34261c5d9a2af6a778cfbcf3524aa769876e3ca7c02839c8301beeb67a5cdd"
+    },
+    {
+      "path": "provenance/base_files.json",
+      "sha256": "d1604cadaceef5dcfc371d25ec7decfebd1321bf57d17dbaca914c4cfa9dde48"
+    },
+    {
+      "path": "provenance/character_counts.json",
+      "sha256": "5f37470d345616dc3859b70a8d511981735be4091c43b793a0820f55dd005137"
+    },
+    {
+      "path": "provenance/fallback_fonts.json",
+      "sha256": "58a1671a1ce1a95429ea2dfcb43a80764bca2987347dcc8fc490fbd6f37cd216"
+    },
+    {
+      "path": "provenance/vendor_assets.json",
+      "sha256": "a0733b49ff7f96ef83debf00525f4bbecac0c3cf47defe744ca79df14edfdd3d"
+    },
+    {
+      "path": "provenance/vendor_files.json",
+      "sha256": "fdc8ca8f12c4a1e71496c3b1bc5839f809fbfe8b3fab1bb7dcdcd5410d7eb2a0"
+    },
+    {
+      "path": "provenance/vendored_source.json",
+      "sha256": "ffbdc2b08f5620266f5ec3f5d59a7fd223570fe6329d61a6c1bb4b6ae1268b3f"
+    },
+    {
+      "path": "requirements.lock.txt",
+      "sha256": "6ea14240bd472b35b4648c6d16cc74cda2ac22887a85cbf38cc45df1e4ab7803"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "a8f74afde8f61a04d51ae0152fe0f54241697f9713674fc4e55f5cb3515d85ae"
+    },
+    {
+      "path": "runtime/common.py",
+      "sha256": "e36eef2f7f466b1ef5c5bee712a830cfc97843bf076593bc9d5a1cefb65fca96"
+    },
+    {
+      "path": "runtime/data_records.py",
+      "sha256": "50e992635517ab94dd7c4c84fa9f4c8a3db8219a93d5ce9ff19aa7caa8785e91"
+    },
+    {
+      "path": "runtime/dataset.py",
+      "sha256": "08aecd08cff1741f0a9b9d74aed71e8ffc7f83fa935f44a5490f65b7077c1c96"
+    },
+    {
+      "path": "runtime/distributed_layout.py",
+      "sha256": "46dea64ea793951cc5b59fc9e083642ed98521f1ce2ca61ed207ccfcfe2f4bec"
+    },
+    {
+      "path": "runtime/font_support.py",
+      "sha256": "f13c087bdf51f9184c709b37d68224f1e4590ccfd95b656d4c20d4713e4e3e27"
+    },
+    {
+      "path": "runtime/generate.py",
+      "sha256": "04be0719a89f02e895613c790c54a87bb74556dee06d44a080cb43aa35ef948c"
+    },
+    {
+      "path": "runtime/pipeline_precision.py",
+      "sha256": "8b5a0471eadadf08af31fa5eda5192379e910ab7ea4ba958d81d61dc74a22559"
+    },
+    {
+      "path": "runtime/scripts/glyph_atlas/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runtime/scripts/glyph_atlas/budget.py",
+      "sha256": "c5bbf16358fe93abefcc06b85cbc0bf875d373119b8f94a2b74c3fd70f4a2418"
+    },
+    {
+      "path": "runtime/scripts/glyph_atlas/character_data_legacy.py",
+      "sha256": "6eb9de5e0a4b50a3b104138f6bd5b5ddc2aceea3fa43e18c95f12204ec23b67e"
+    },
+    {
+      "path": "runtime/scripts/glyph_atlas/data.py",
+      "sha256": "181cb3a02c512a620f56fe416da15201bef997866172e9906f74729399e91db4"
+    },
+    {
+      "path": "runtime/scripts/glyph_atlas/global_trace.py",
+      "sha256": "156607a7dd9ac9f30b5a6d226e453642bffb2b093f11d1944d7e500f011a4413"
+    },
+    {
+      "path": "runtime/scripts/glyph_atlas/model.py",
+      "sha256": "9062713527e128377f3fa0b618234282dc6516c6b91068f627501c85cd82c231"
+    },
+    {
+      "path": "runtime/scripts/glyph_atlas/resolution_data.py",
+      "sha256": "625673f0d78cafb18e388c0bc4b8ce833180d53bafff066286685c87d4a564c4"
+    },
+    {
+      "path": "runtime/scripts/glyph_atlas/stage1_ocr.py",
+      "sha256": "103b44e793443f07fd3a1297495c2d1ee0a9a01fcf256602df53db988b0b972c"
+    },
+    {
+      "path": "runtime/scripts/glyph_atlas/supervision.py",
+      "sha256": "f7840b679a34fcec93d99d5d630f6be225e60d3ff20d1f7549832374dd7d53d5"
+    },
+    {
+      "path": "runtime/scripts/reproduce_flux_text/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runtime/scripts/reproduce_flux_text/evaluate.py",
+      "sha256": "4ee40a20ce4d0f354c406b4ed681aa20f4f77f8416929adbbf120ca5429e121c"
+    },
+    {
+      "path": "runtime/scripts/reproduce_flux_text/full_model.py",
+      "sha256": "1a745844bf84561021e15b103bcffa87a52be6c26336e56bba7d4c90ff716e25"
+    },
+    {
+      "path": "runtime/scripts/reproduce_flux_text/generate_benchmark.py",
+      "sha256": "b6b8877390c78dd6219b7dd0b7e22e7b75c062a4bb0518a850ba58c2cf4bdfe9"
+    },
+    {
+      "path": "runtime/scripts/reproduce_flux_text/train.py",
+      "sha256": "120ee9bffbceeef3cb0ee1816120fe0dddba64babfc70350c965609c7482b34c"
+    },
+    {
+      "path": "runtime/scripts/reproduce_flux_text/train_full.py",
+      "sha256": "eafd035285c54ac054dacdfe10bdeffe5f70bc9d9ff984ae430ea59c4ca5dc80"
+    },
+    {
+      "path": "runtime/tools_check.py",
+      "sha256": "cf47e66696a1ce743c3e21d9e782f731372e51f33d2b1e9a43120f69bb3515c9"
+    },
+    {
+      "path": "runtime/train.py",
+      "sha256": "4c9be9d97c255c5777af494d4ff74c5b2708b82bdfe42cf79ab3eca5c2682e40"
+    },
+    {
+      "path": "runtime/training_schedule.py",
+      "sha256": "36f961db2d27dd19794715105e1b169b087948e39fd845a8ab5966ccdd952187"
+    },
+    {
+      "path": "tests/check_checkpoint_roundtrip.py",
+      "sha256": "d1604aea2b7fcc914d56de095bcab8033b4ca1bbddb5ed8213dccd2b6203dd40"
+    },
+    {
+      "path": "tests/check_cluster_agreement.py",
+      "sha256": "a36ab89f1956dbbba5750c9d7b2c093575e1ad8e12afb70507cca50cf7623f4a"
+    },
+    {
+      "path": "tests/test_augmentation_loader.py",
+      "sha256": "e5b05e50684c1a54960795a2ff99bf605809172edda1eab88a611a45aea2b549"
+    },
+    {
+      "path": "tests/test_distributed_layout.py",
+      "sha256": "4ebd0e5f8b1ec7302216d237e1aaf5c4121aefb98f89629f966585fae464b846"
+    },
+    {
+      "path": "tests/test_glyph_release.py",
+      "sha256": "1aa3f89653624558a22ca5ee79e3b12fa0db9b245c69be3d0fb1f6012d35538a"
+    },
+    {
+      "path": "tests/test_pipeline_precision.py",
+      "sha256": "692b6344891a86298f59b595db30901c8da3009ba91eb020ac7c4fe724d07e71"
+    },
+    {
+      "path": "tests/test_training_protocol.py",
+      "sha256": "9a41f7ce38d168cfe0874f00e0b561bf784834c4feba86b4f4746809139981fd"
+    },
+    {
+      "path": "tests/test_two_stage_schedule.py",
+      "sha256": "f1a0959fc33c48f6b4c7e1a473ede399414dd6797bf4dba19cf06ce0ba0a8d3f"
+    },
+    {
+      "path": "tests/validate_augmentation_inputs.py",
+      "sha256": "e7096b7b0d7b6c667a2dce97772b968bbcb566622ce4cb717c1cfcf853228e66"
+    },
+    {
+      "path": "tests/validate_native_inputs.py",
+      "sha256": "caa47b077f4261c7829d99c3d8b9e6f5e9711b8db11e645264726bdd26187215"
+    },
+    {
+      "path": "tests/validate_node_shard.py",
+      "sha256": "faa9d588359be97825ac65ba2d1d29e0fe618a077ab22f63c48ee49d7e815545"
+    },
+    {
+      "path": "tools/doctor.py",
+      "sha256": "146fe01133e0a6bea33b0797939b58b391bb58177ecb6c50deda2a64358c3b30"
+    },
+    {
+      "path": "tools/download_assets.py",
+      "sha256": "24029caf2a12fa276f008502902be586578df8f920e085b6a65a50a3b90e30c3"
+    },
+    {
+      "path": "tools/download_full_datasets.py",
+      "sha256": "29355c5e520cd149dd87433c2632fa09493b857cdbd4d073cd57955d06e22c18"
+    },
+    {
+      "path": "tools/full_data/common.py",
+      "sha256": "134a0788e94151f441b4880d428227c775f53d316b5f41bca702bf39a066e65f"
+    },
+    {
+      "path": "tools/full_data/known_exclusions.json",
+      "sha256": "e9c766be780427399375355d8e21703ba2d6f8cc7dd6402a5512402290802b13"
+    },
+    {
+      "path": "tools/full_data/prepare.py",
+      "sha256": "bfb0907e553365238dd29b034e4e10b8cf71165ba7618191d951c6d520d2004c"
+    },
+    {
+      "path": "tools/launch.sh",
+      "sha256": "03a4ff75dcf4b896f3df96d14cb1fc030159c986213264cbbbdbd42bf54db881"
+    },
+    {
+      "path": "tools/prepare_glyph.py",
+      "sha256": "4d7aaa7d642581e5dacf419a5dc4d023e893555cf95ecad0aa898016430f8f89"
+    },
+    {
+      "path": "tools/restore_augmentation.py",
+      "sha256": "1a01bae4bc989e9b72567d7ed68e26a267e1a7a02bd1368e95f533223c89e53c"
+    },
+    {
+      "path": "tools/setup_env.sh",
+      "sha256": "11362818b39559a3c00e2f18a9fcd6399b9afd26546dd0e417c5b60b5f7ca83f"
+    },
+    {
+      "path": "tools/slurm_train.example.sh",
+      "sha256": "f9c1dc784bc82c715ce2e235a5c92ba49187182ff4bc3df6e6cf7181aabb1ecb"
+    },
+    {
+      "path": "tools/verify_dataset.py",
+      "sha256": "95a0f50225d9df88012fc7192d2652bc8fe070b3560b3e09f566b294c1f97d62"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+These synthetic input fixtures were drawn with Pillow and the bundled DejaVu font. They are not model outputs or paper results. `edit.json` replaces the sign text; `train.jsonl` demonstrates the import schema only (one image is insufficient for BS128 training).
