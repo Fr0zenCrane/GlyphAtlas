@@ -18,8 +18,18 @@
     },
     {
       "path": "README.md",
-      "bytes": 8620,
-      "sha256": "7bb2d487a7b11b8d949f84de61b289b7eb7e17bef6fa23caecd0b9dd48a8afe6"
+      "bytes": 6247,
+      "sha256": "9ea9802c0da6f49e3eaaf0857d59b60bd5c8e546ff0a2c8860366d518b74c3bf"
+    },
+    {
+      "path": "assets/figures/framework.png",
+      "bytes": 432721,
+      "sha256": "7ab27e60db539c628043441278f330bc5a347e52866d0392334b5dc7b3b94343"
+    },
+    {
+      "path": "assets/figures/teaser.png",
+      "bytes": 7057292,
+      "sha256": "d5176e241d26055a18bda5bbe5018c2e360de695ca9f3047c701554f9607d6e8"
     },
     {
       "path": "assets/fonts/DejaVu-LICENSE.txt",
@@ -493,8 +503,8 @@
     },
     {
       "path": "tools/package_release.py",
-      "bytes": 2906,
-      "sha256": "9185aee89276ea5e2ebf71d4c6f65dee20b6c294a28b7be3906abe5069f4758c"
+      "bytes": 2924,
+      "sha256": "4033341785cfcd7bb1911483af68561a7193bf3dc9582496392a2bc594009d12"
     },
     {
       "path": "tools/prepare_all.py",

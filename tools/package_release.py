@@ -18,7 +18,7 @@ def source_files():
         rel=path.relative_to(ROOT)
         if not path.is_file() or '__pycache__' in rel.parts:continue
         if rel.parts[0] not in DIRECTORIES and str(rel) not in ROOT_FILES:continue
-        if rel.parts[0]=='assets' and rel.parts[1]!='fonts':continue
+        if rel.parts[0]=='assets' and rel.parts[1] not in {'fonts','figures'}:continue
         if path.suffix in {'.pyc','.pyo','.pt','.pth','.ckpt','.safetensors','.sqlite','.zip'}:continue
         if str(rel)=='provenance/release_files.json':continue
         if path.is_symlink():raise ValueError('Source archive cannot contain symlinks: '+str(rel))
