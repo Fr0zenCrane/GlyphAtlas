@@ -1,6 +1,11 @@
 # GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis
 
 <p align="center">
+  Luozheng Qin<sup>1</sup> &emsp; Changhai Zhou<sup>2</sup> &emsp; Yiyi Zhou<sup>1</sup><br>
+  <sup>1</sup> Xiamen University &emsp; <sup>2</sup> Fudan University
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/%E2%80%8B-arXiv-b31b1b?logo=arxiv&amp;logoColor=white" alt="arXiv">
   <img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Model-yellow" alt="Hugging Face model">
   <a href="https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Dataset-yellow" alt="Hugging Face dataset"></a>
