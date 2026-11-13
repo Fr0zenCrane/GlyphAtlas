@@ -5,6 +5,8 @@
   <img src="https://img.shields.io/badge/%E2%80%8B-arXiv-b31b1b?logo=arxiv&amp;logoColor=white" alt="arXiv">
   <a href="https://github.com/Fr0zenCrane/GlyphAtlas"><img src="https://img.shields.io/badge/%E2%80%8B-Code-181717?logo=github&amp;logoColor=white" alt="Code"></a>
   <a href="https://fr0zencrane.github.io/project-glyphatlas/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20-Project-4285F4" alt="Project"></a>
+  <!-- Add the Hugging Face model repository link to this badge when available. -->
+  <img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Model-orange" alt="Hugging Face model">
   <a href="https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Dataset-yellow" alt="Hugging Face dataset"></a>
 </p>
 
