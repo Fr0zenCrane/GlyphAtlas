@@ -1,6 +1,6 @@
 # GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/%E2%80%8B-arXiv-b31b1b?logo=arxiv&amp;logoColor=white" alt="arXiv">
   <img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Model-yellow" alt="Hugging Face model">
   <a href="https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Dataset-yellow" alt="Hugging Face dataset"></a>
@@ -8,15 +8,19 @@
   <a href="https://fr0zencrane.github.io/project-glyphatlas/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20-Project-4285F4" alt="Project"></a>
 </p>
 
-[Luozheng Qin](https://scholar.google.com/citations?user=41BWCzkAAAAJ&hl=en)<sup>1</sup><sup>\*</sup>, [Changhai Zhou](https://scholar.google.com/citations?user=mM3rnV4AAAAJ&hl=en)<sup>2</sup><sup>\*</sup>, [Yiyi Zhou](https://scholar.google.com/citations?user=w3_2ep0AAAAJ&hl=en)<sup>1</sup><sup>#</sup>
+<p align="center">
+  <a href="https://scholar.google.com/citations?user=41BWCzkAAAAJ&amp;hl=en">Luozheng Qin</a><sup>1</sup><sup>*</sup>,
+  <a href="https://scholar.google.com/citations?user=mM3rnV4AAAAJ&amp;hl=en">Changhai Zhou</a><sup>2</sup><sup>*</sup>,
+  <a href="https://scholar.google.com/citations?user=w3_2ep0AAAAJ&amp;hl=en">Yiyi Zhou</a><sup>1</sup><sup>#</sup>
+</p>
 
-\* Equal contribution &emsp; # Corresponding author
+<p align="center">* Equal contribution &emsp; # Corresponding author</p>
 
-<sup>1</sup> Xiamen University, <sup>2</sup> Fudan University
+<p align="center"><sup>1</sup> Xiamen University, <sup>2</sup> Fudan University</p>
 
-<div>
-<a href="mailto:fr0zencrane@163.com">fr0zencrane@163.com</a>
-</div>
+<p align="center">
+  <a href="mailto:fr0zencrane@163.com">fr0zencrane@163.com</a>
+</p>
 
 ## Overview
 
