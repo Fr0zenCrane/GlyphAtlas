@@ -1,9 +1,7 @@
 # GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis
 
 <p align="center">
-  <a href="https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-GlyphAtlas--Data--1.5M-yellow" alt="Hugging Face dataset"></a>
-  <a href="#training"><img src="https://img.shields.io/badge/Training-Quickstart-blue" alt="Training quickstart"></a>
-  <a href="#inference"><img src="https://img.shields.io/badge/Inference-Quickstart-green" alt="Inference quickstart"></a>
+  <a href="https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Dataset-yellow" alt="Hugging Face dataset"></a>
 </p>
 
 ## Overview
