@@ -32,6 +32,21 @@ Use a JSON list or one object per line in a `.jsonl` file for multiple images. E
 
 ## Assets and checkpoints
 
+The released [GlyphAtlas weights](https://huggingface.co/Fr0zencr4nE/GlyphAtlas) support atlas heights of 48, 64 and 80 pixels. From the code repository, download the model with:
+
+```bash
+python - <<'PY_DOWNLOAD'
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+    repo_id="Fr0zencr4nE/GlyphAtlas",
+    local_dir="checkpoints/GlyphAtlas",
+)
+PY_DOWNLOAD
+```
+
+Use `--checkpoint checkpoints/GlyphAtlas/transformer` with `runtime/infer.py`; the default sampling settings are `--steps 10 --guidance 1 --atlas-mode fixed64`.
+
 `--inference-assets` downloads frozen base components and upstream fonts. It omits the base transformer because the GlyphAtlas transformer is supplied separately, and omits training-only OCR/ODM weights. Fonts retain their own terms. Source files are first installed with `bootstrap_upstream.py`.
 
 Inference requires a full `region-v2` export with `config.json`, `weights_manifest.json`, a safetensors index, and all referenced shards. It verifies shard hashes and strict parameter loading, including all 593,536 Atlas parameters. It records the config and index hashes separately because the inherited export manifest covers weight shards only. A LoRA file or a training directory without its `transformer/` export is not interchangeable.

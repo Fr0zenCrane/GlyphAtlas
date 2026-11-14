@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/%E2%80%8B-arXiv-b31b1b?logo=arxiv&amp;logoColor=white" alt="arXiv">
-  <img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Model-yellow" alt="Hugging Face model">
+  <a href="https://huggingface.co/Fr0zencr4nE/GlyphAtlas"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Model-yellow" alt="Hugging Face model"></a>
   <a href="https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Dataset-yellow" alt="Hugging Face dataset"></a>
   <a href="https://github.com/Fr0zenCrane/GlyphAtlas"><img src="https://img.shields.io/badge/%E2%80%8B-Code-181717?logo=github&amp;logoColor=white" alt="Code"></a>
   <a href="https://fr0zencrane.github.io/project-glyphatlas/"><img src="https://img.shields.io/badge/%F0%9F%8C%90%20-Project-4285F4" alt="Project"></a>
@@ -21,6 +21,13 @@
 <p align="center">
   <a href="mailto:fr0zencrane@163.com">fr0zencrane@163.com</a>
 </p>
+
+## News
+
+*Dates are in UTC+8.*
+
+- **2026-11-13** — We released the [code](https://github.com/Fr0zenCrane/GlyphAtlas), [project page](https://fr0zencrane.github.io/project-glyphatlas/), and [dataset](https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M).
+- **2026-11-14** — We released the [GlyphAtlas model weights](https://huggingface.co/Fr0zencr4nE/GlyphAtlas).
 
 ## Overview
 
@@ -82,19 +89,30 @@ For random atlas heights, select [`configs/train_glyphatlas_1p5m_random_atlas.js
 
 ### Inference
 
+The released [GlyphAtlas model](https://huggingface.co/Fr0zencr4nE/GlyphAtlas) uses random atlas heights and supports `fixed48`, `fixed64` and `fixed80`. Download the weights from Hugging Face, then run the example below.
+
 Inference runs on one BF16-capable CUDA GPU. Set the source image, scene prompt, target texts and polygons in [`examples/edit.json`](examples/edit.json). Inputs use a **512 × 512** canvas with **1–8 text regions**.
 
 ```bash
 python tools/download_assets.py --inference-assets
 
+python - <<'PY_DOWNLOAD'
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+    repo_id="Fr0zencr4nE/GlyphAtlas",
+    local_dir="checkpoints/GlyphAtlas",
+)
+PY_DOWNLOAD
+
 python runtime/infer.py \
   --input examples/edit.json \
-  --checkpoint runs/glyphatlas/checkpoint-011996/transformer \
+  --checkpoint checkpoints/GlyphAtlas/transformer \
   --output runs/bookshop \
   --steps 10 --guidance 1 --atlas-mode fixed64
 ```
 
-`--checkpoint` points to the `transformer/` export saved by training; the path above follows the one-epoch command. Choose `fixed48`, `fixed64` or `fixed80` to set the atlas cell height. Each result includes the edited image, glyph condition, edit mask and generation settings. JSON lists and JSONL files support batch inference; see [input formats and outputs](docs/INFERENCE.md).
+`--checkpoint` points to the downloaded `transformer/` directory. Choose `fixed48`, `fixed64` or `fixed80` to set the atlas cell height. For your own trained model, set this path to its `transformer/` export. Each result includes the edited image, glyph condition, edit mask and generation settings. JSON lists and JSONL files support batch inference; see [input formats and outputs](docs/INFERENCE.md).
 
 ## Acknowledgements
 
