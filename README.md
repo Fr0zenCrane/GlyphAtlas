@@ -22,12 +22,10 @@
   <a href="mailto:fr0zencrane@163.com">fr0zencrane@163.com</a>
 </p>
 
-## News
+## 🔥 News
 
-*Dates are in UTC+8.*
-
-- **2026-11-13** — We released the [code](https://github.com/Fr0zenCrane/GlyphAtlas), [project page](https://fr0zencrane.github.io/project-glyphatlas/), and [dataset](https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M).
-- **2026-11-14** — We released the [GlyphAtlas model weights](https://huggingface.co/Fr0zencr4nE/GlyphAtlas).
+- ✅ **2026.11.13** &mdash; We released the [code](https://github.com/Fr0zenCrane/GlyphAtlas), [project page](https://fr0zencrane.github.io/project-glyphatlas/), and [**GlyphAtlas-Data-1.5M**](https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M), a dataset of 1.5M scene text images.
+- ✅ **2026.11.14** &mdash; We released **GlyphAtlas model weights** on [Hugging Face](https://huggingface.co/Fr0zencr4nE/GlyphAtlas) for multilingual scene text generation and editing.
 
 ## Overview
 
