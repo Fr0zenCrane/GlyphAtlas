@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: If you use GlyphAtlas in your research, please cite our paper.
+type: software
+title: GlyphAtlas
+authors:
+- family-names: Qin
+  given-names: Luozheng
+- family-names: Zhou
+  given-names: Changhai
+- family-names: Zhou
+  given-names: Yiyi
+repository-code: https://github.com/Fr0zenCrane/GlyphAtlas
+url: https://fr0zencrane.github.io/project-glyphatlas/
+preferred-citation:
+  type: article
+  title: 'GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis'
+  authors:
+  - family-names: Qin
+    given-names: Luozheng
+  - family-names: Zhou
+    given-names: Changhai
+  - family-names: Zhou
+    given-names: Yiyi
+  journal: arXiv preprint arXiv:2611.20192
+  year: 2026
+  doi: 10.48550/arXiv.2611.20192
+  url: https://arxiv.org/abs/2611.20192

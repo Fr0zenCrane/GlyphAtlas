@@ -1,7 +1,7 @@
 # GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis
 
 <p align="center">
-  <img src="https://img.shields.io/badge/%E2%80%8B-arXiv-b31b1b?logo=arxiv&amp;logoColor=white" alt="arXiv">
+  <a href="https://arxiv.org/abs/2611.20192"><img src="https://img.shields.io/badge/%E2%80%8B-arXiv-b31b1b?logo=arxiv&amp;logoColor=white" alt="arXiv"></a>
   <a href="https://huggingface.co/Fr0zencr4nE/GlyphAtlas"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Model-yellow" alt="Hugging Face model"></a>
   <a href="https://huggingface.co/datasets/Fr0zencr4nE/GlyphAtlas-Data-1.5M"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20-Dataset-yellow" alt="Hugging Face dataset"></a>
   <a href="https://github.com/Fr0zenCrane/GlyphAtlas"><img src="https://img.shields.io/badge/%E2%80%8B-Code-181717?logo=github&amp;logoColor=white" alt="Code"></a>
@@ -111,6 +111,22 @@ python runtime/infer.py \
 ```
 
 `--checkpoint` points to the downloaded `transformer/` directory. Choose `fixed48`, `fixed64` or `fixed80` to set the atlas cell height. For your own trained model, set this path to its `transformer/` export. Each result includes the edited image, glyph condition, edit mask and generation settings. JSON lists and JSONL files support batch inference; see [input formats and outputs](docs/INFERENCE.md).
+
+## Citation
+
+If you use GlyphAtlas in your research, please cite [our paper](https://arxiv.org/abs/2611.20192):
+
+```bibtex
+@misc{qin2026glyphatlasdisentanglingstrokelayout,
+      title={GlyphAtlas: Disentangling Stroke Detail from Layout for Scene Text Synthesis},
+      author={Luozheng Qin and Changhai Zhou and Yiyi Zhou},
+      year={2026},
+      eprint={2611.20192},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2611.20192},
+}
+```
 
 ## Acknowledgements
 
